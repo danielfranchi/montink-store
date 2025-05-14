@@ -1,54 +1,73 @@
-# React + TypeScript + Vite
+# Montink-Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Montink-Store é um e-commerce especializado em moda masculina, onde você pode personalizar sua escolha, selecionando modelo, cor e tamanho. Além disso, o site facilita o processo de compra ao calcular automaticamente o endereço de entrega e o frete, garantindo uma experiência prática e conveniente.
 
-Currently, two official plugins are available:
+### Características:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - **Design Responsivo:** A página se adapta perfeitamente a diferentes dispositivos e tamanhos de tela, proporcionando uma experiência de usuário consistente em desktops, tablets e smartphones.
 
-## Expanding the ESLint configuration
+- **SEO Otimizado:** Utilização de práticas adequadas de SEO, incluindo meta tags, HTML semântico e tempos de carregamento otimizados.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Integração com React:** Construída utilizando React, garantindo uma arquitetura robusta e escalável.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Estilização** com Tailwind CSS: Utilização de Tailwind CSS para um design moderno e customizável.
+
+<br />
+
+### 🚀 Teach students
+
+[![Montink-Store](https://img.shields.io/badge/Montink_Store-Website-2bce3a?style=for-the-badge&logo=steam)](https://frabjous-wisp-d29ad1.netlify.app/)
+
+```bash
+# Acesse o site neste link:
+$ https://frabjous-wisp-d29ad1.netlify.app/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<br />
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## :wrench: Pré-requisitos
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+
+[![Git](https://img.shields.io/badge/Git-Link-2bce3a?style=for-the-badge&logo=git)](https://git-scm.com/)&nbsp; [![Node.js](https://img.shields.io/badge/Node.js-Link-2bce3a?style=for-the-badge&logo=node.js)](https://nodejs.org/en/)&nbsp; [![VSCode](https://img.shields.io/badge/VSCode-Link-2bce3a?style=for-the-badge&logo=visual-studio-code)](https://code.visualstudio.com/)
+
+```bash
+# Git
+$ Clonar o projeto
+
+# Node.js
+$ Instalar as dependências
+
+# VSCode
+$ Visualizar o código
+```
+<br />
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram utilizadas no projeto:
+
+[![React](https://img.shields.io/badge/React-Link-2bce3a?style=for-the-badge&logo=react)](https://pt-br.reactjs.org/)&nbsp; [![TypeScript](https://img.shields.io/badge/TypeScript-Link-2bce3a?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)&nbsp; [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Link-2bce3a?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)&nbsp; [![Vite](https://img.shields.io/badge/Vite-Link-2bce3a?style=for-the-badge&logo=vite)](https://vitejs.dev/)&nbsp;
+
+
+
+<br />
+
+### :white_check_mark: Configurando e Iniciando o Front-End
+
+```bash
+# Clonar o repositório
+$ https://github.com/danielfranchi/montink-store
+
+# Acesse a pasta do projeto no terminal com o comando cd
+$ cd montink-store
+
+# Instalar dependências
+$ yarn
+
+# Executar a aplicação
+$ yarn dev --port 3000
+
+# O servidor iniciará na porta: 3000
+$ http://localhost:3000
 ```
