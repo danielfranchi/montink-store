@@ -12,7 +12,7 @@ const BuyButton = ({
   type: keyof typeof buttonStyles;
   onClick?: () => void;
 }) => {
-  const { color, hoverColor } = buttonStyles[type] || buttonStyles.teal; // ✅ Se o tipo não existir, usa "teal"
+  const { color, hoverColor } = buttonStyles[type] || buttonStyles.teal;
 
   return (
     <button
