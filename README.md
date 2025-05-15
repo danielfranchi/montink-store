@@ -16,11 +16,11 @@ A Montink-Store é um e-commerce especializado em moda masculina, onde você pod
 
 ### 🚀 Teach students
 
-[![Montink-Store](https://img.shields.io/badge/Montink_Store-Website-2bce3a?style=for-the-badge&logo=steam)](https://frabjous-wisp-d29ad1.netlify.app/)
+[![Montink-Store](https://img.shields.io/badge/Montink_Store-Website-2bce3a?style=for-the-badge&logo=steam)](https://montink-store-zeta.vercel.app/)
 
 ```bash
 # Acesse o site neste link:
-$ https://frabjous-wisp-d29ad1.netlify.app/
+$ https://montink-store-zeta.vercel.app/
 ```
 
 <br />
